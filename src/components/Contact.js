@@ -2,8 +2,8 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <section className="contact">
-
+        <section className="sec odd contact">
+            <h1>CONTACTS</h1>
         </section>
     );
 }

@@ -1,9 +1,7 @@
-/*
 .about {
-
+    background: #fff;
+    color: #000;
 }
-
-*/
 
 .flexbox {
     display: flex;
@@ -13,15 +11,64 @@
     height: 100%;
 }
 
-.pic {
-    margin: 10px;
+.maxw {
+    max-width: 75rem;
+    width: 100%;
 }
 
-.me {
-    height: 400px;
+.flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pic {
+    margin: 1rem;
 }
 
 .intro {
-    max-width: 400px;
     margin: 10px;
+    max-width: calc(75rem - 600px);
+}
+
+.iAlign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro h2 {
+    font-size: 1.7rem;
+    padding: 0 4rem 0 4rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+}
+
+.qLine {
+    display: inline-block;
+    width: 100%;
+}
+
+.quotes {
+    color: #989898;
+    font-size: 2rem;
+    width: 2rem;
+    padding: 1rem;
+}
+
+.qCon {
+    width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+    .qLine {
+        width: 520px;
+        text-overflow: hidden;
+    }
+
+    .intro h2 {
+        font-size: 1.4rem;
+    }
 }

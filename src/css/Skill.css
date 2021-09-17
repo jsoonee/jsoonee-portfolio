@@ -1,5 +1,47 @@
+.skill {
+    background-color: #3a8590;
+    color: #fff;
+}
 
-.sLogo {
+.logobox {
+    width: 100%;
+    max-width: 75rem;
+}
+
+.logobox ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.liItem {
     font-size: 5rem;
     margin: 2rem;
+    width: 7rem;
+}
+
+.liItem p {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    visibility: hidden;
+}
+
+.hov {
+    background: #fff;
+    color: #3a8590;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.hov:hover p {
+    visibility: visible;
+}
+
+.sName {
+    font-size: 1rem;
 }

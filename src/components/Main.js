@@ -11,7 +11,7 @@ const Main = () => {
                 <Typist>
                     Hi! 👋 I'm<span></span><br/>
                     <Typist.Delay ms={500} /><span>SHIN JONGSO</span><br/>
-                    <Typist.Delay ms={500} />A web frontend developer
+                    <Typist.Delay ms={500} />Web frontend developer
                 </Typist>
                 </div>
             </div>

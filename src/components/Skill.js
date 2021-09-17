@@ -7,22 +7,37 @@ import { SiReact } from "react-icons/si";
 
 const Skill = () => {
     return (
-        <section className="sec odd skill">
+        <section className="sec skill">
             <h1>SKILLS</h1>
             <div className="flexbox">
-                <div className="sLogo">
-                    <SiHtml5/>
+                <div className="logobox">
+                    <ul>
+                        <li className="liItem">
+                            <div className="hov">
+                                <SiHtml5/>
+                                <p>HTML5</p>
+                            </div>
+                        </li>
+                        <li className="liItem">
+                            <div className="hov">
+                                <SiCss3/>
+                                <p>CSS3</p>
+                            </div>
+                        </li>
+                        <li className="liItem">
+                            <div className="hov">
+                                <SiJavascript/>
+                                <p>JavaScript</p>
+                            </div>
+                        </li>
+                        <li className="liItem">
+                            <div className="hov">
+                                <SiReact/>
+                                <p>React</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div className="sLogo">
-                    <SiCss3/>
-                </div>
-                <div className="sLogo">
-                    <SiJavascript/>
-                </div>
-                <div className="sLogo">
-                    <SiReact/>
-                </div>
-                
             </div>
         </section>
     );
