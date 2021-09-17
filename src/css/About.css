@@ -1,0 +1,27 @@
+/*
+.about {
+
+}
+
+*/
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.pic {
+    margin: 10px;
+}
+
+.me {
+    height: 400px;
+}
+
+.intro {
+    max-width: 400px;
+    margin: 10px;
+}
