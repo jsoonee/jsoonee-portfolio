@@ -7,7 +7,7 @@ import { ImQuotesRight } from 'react-icons/im';
 
 const About = () => {
     return (
-        <section className="sec even about">
+        <section className="sec about" id="about">
             <h1>ABOUT ME</h1>
             <div className="flexbox">
                 <div className="maxw">
@@ -18,9 +18,11 @@ const About = () => {
                         <div className="intro">
                             <div className="iAlign">
                                 <div className="qLine">
+                                <div className="lAlign">
                                     <div class="quotes"><ImQuotesLeft/></div>
                                     <div className="qCon"><h2>신입 프론트엔드 개발자 신종소입니다.</h2></div>
                                     <div class="quotes r"><ImQuotesRight/></div>
+                                </div>
                                 </div>
                                 <div className="word">
                                     <p>새로운 일에 도전하는 것을 즐기는 27살 청년입니다.</p>

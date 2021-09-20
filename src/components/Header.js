@@ -19,13 +19,13 @@ const Header = () => {
         <header className={header}>
             <div className="container">
                 <div className="head">
-                    <div className="logo"><a href="/">jsoonee</a></div>
+                    <div className="logo"><a href="/">JS</a></div>
                     <div className="menu">
                         <ul>
-                            <li>ABOUT ME</li>
-                            <li>SKILLS</li>
-                            <li>PROJECTS</li>
-                            <li>CONTACTS</li>
+                            <li><a href="#about">ABOUT ME</a></li>
+                            <li><a href="#skill">SKILLS</a></li>
+                            <li><a href="#project">PROJECTS</a></li>
+                            <li><a href="#contact">CONTACTS</a></li>
                         </ul>
                     </div>
                 </div>

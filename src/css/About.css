@@ -3,14 +3,6 @@
     color: #000;
 }
 
-.flexbox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
 .maxw {
     max-width: 75rem;
     width: 100%;
@@ -26,20 +18,30 @@
     margin: 1rem;
 }
 
+.pic img {
+    width: auto;
+    max-width: 100%;
+}
+
 .intro {
-    margin: 10px;
+    margin: 1rem;
     max-width: calc(75rem - 600px);
+    flex: 1 1;
+    min-width: 55%;
 }
 
 .iAlign {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-end;
+    height: 100%;
 }
 
 .intro h2 {
     font-size: 1.7rem;
-    padding: 0 4rem 0 4rem;
+    padding-top: 2rem;
+    text-align: center;
 }
 
 .intro p {
@@ -47,8 +49,14 @@
 }
 
 .qLine {
-    display: inline-block;
     width: 100%;
+}
+
+.lAlign {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 .quotes {
@@ -62,13 +70,20 @@
     width: 100%;
 }
 
+.qLine, .word {
+    margin: 2rem 0 2rem 0;
+}
+
 @media screen and (max-width: 720px) {
     .qLine {
-        width: 520px;
         text-overflow: hidden;
     }
 
     .intro h2 {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
+    }
+    
+    .quotes {
+        font-size: 1.5rem;
     }
 }

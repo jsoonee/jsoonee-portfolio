@@ -5,17 +5,17 @@ import '../css/module/Typist.css';
 
 const Main = () => {
     return (
-        <div className="sec odd main" style={{ height: window.innerHeight - 100, display: 'block' }}>
+        <section className="sec main" style={{ height: window.innerHeight - 100, display: 'block' }}>
             <div className="flex">
                 <div className="typing">
                 <Typist>
-                    Hi! 👋 I'm<span></span><br/>
-                    <Typist.Delay ms={500} /><span>SHIN JONGSO</span><br/>
+                    Hi! 👋 I'm<span/><br/><br/>
+                    <span><Typist.Delay ms={500} />SHIN JONGSO</span><br/><br/>
                     <Typist.Delay ms={500} />Web frontend developer
                 </Typist>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

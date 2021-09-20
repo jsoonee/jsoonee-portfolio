@@ -4,12 +4,13 @@
 }
 
 .frame {
-    width: 380px;
+    max-width: 380px;
     background-color: #fff;
     box-shadow: 0 4px 6px rgb(0, 0, 0, 0.3);
     transition: box-shadow 0.3s ease-in-out;
     padding: 1.3rem 0 1.3rem 0;
     margin: 2rem;
+    overflow: hidden;
 }
 
 .frame:hover {
@@ -26,12 +27,18 @@
 }
 
 .des {
-    width: 320px;
     color: #000;
+    width: 100%;
+    margin: 0 1.2rem 0 1.2rem;
 }
 
 .pjs {
-    margin-bottom: 1rem;
+    margin: 1rem;
+}
+
+.pjs img {
+    width: auto;
+    max-width: 100%;
 }
 
 h2 {

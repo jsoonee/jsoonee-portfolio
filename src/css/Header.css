@@ -32,6 +32,8 @@
 
 .logo {
     margin-left: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 .logo:hover {
@@ -42,18 +44,20 @@
     text-align: center;
 }
 
-ul {
+.menu ul {
     list-style-type: none;
     padding: 0;
 }
 
-li {
+.menu li {
     float: left;
     margin: 0 1.5rem 0 0;
+    letter-spacing: 0.1em;
+    font-weight: 100;
 }
 
 @media screen and (max-width: 500px) {
-    .header {
+    .header, .header2 {
         display: none;
     }
 }

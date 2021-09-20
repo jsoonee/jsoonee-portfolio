@@ -5,7 +5,7 @@ import weather from '../images/weather320.png';
 
 const Project = () => {
     return (
-        <section className="sec even project">
+        <section className="sec even project" id="project">
             <h1>PROJECTS</h1>
             <div className="flexbox">
                 <a href="https://github.com/jsoonee/todolist" target="_blank">

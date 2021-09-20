@@ -7,11 +7,11 @@ import { SiReact } from "react-icons/si";
 
 const Skill = () => {
     return (
-        <section className="sec skill">
+        <section className="sec skill" id="skill">
             <h1>SKILLS</h1>
             <div className="flexbox">
-                <div className="logobox">
-                    <ul>
+                <div className="maxw">
+                    <ul className="sUl">
                         <li className="liItem">
                             <div className="hov">
                                 <SiHtml5/>

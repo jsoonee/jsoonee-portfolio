@@ -3,12 +3,7 @@
     color: #fff;
 }
 
-.logobox {
-    width: 100%;
-    max-width: 75rem;
-}
-
-.logobox ul {
+.maxw .sUl {
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -25,7 +20,7 @@
 
 .liItem p {
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
     visibility: hidden;
 }
