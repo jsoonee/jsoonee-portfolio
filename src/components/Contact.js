@@ -8,7 +8,7 @@ const Contact = () => {
             <h1>CONTACTS</h1>
             <div className="flexbox">
                     <div className="cIcons">
-                        <div className="email">
+                        <div className="iContainer email">
                             <a href="mailto:jsoonee12@gmail.com">
                                 <div className="iFlex">
                                     <ImMail4 className="ci"/>
@@ -16,7 +16,7 @@ const Contact = () => {
                                 </div>
                             </a>
                         </div>
-                        <div className="gh">
+                        <div className="iContainer gh">
                             <a href="https://github.com/jsoonee" target="_blank">
                                 <div className="iFlex">
                                     <ImGithub className="ci"/>

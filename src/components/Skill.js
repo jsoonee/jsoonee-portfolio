@@ -14,25 +14,25 @@ const Skill = () => {
                     <ul className="sUl">
                         <li className="liItem">
                             <div className="hov">
-                                <SiHtml5/>
+                                <SiHtml5 className="sIcons"/>
                                 <p>HTML5</p>
                             </div>
                         </li>
                         <li className="liItem">
                             <div className="hov">
-                                <SiCss3/>
+                                <SiCss3 className="sIcons"/>
                                 <p>CSS3</p>
                             </div>
                         </li>
                         <li className="liItem">
                             <div className="hov">
-                                <SiJavascript/>
+                                <SiJavascript className="sIcons"/>
                                 <p>JavaScript</p>
                             </div>
                         </li>
                         <li className="liItem">
                             <div className="hov">
-                                <SiReact/>
+                                <SiReact className="sIcons"/>
                                 <p>React</p>
                             </div>
                         </li>
