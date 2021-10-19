@@ -14,21 +14,21 @@
 }
 
 .ci {
-    font-size: 4rem;
+    font-size: 3rem;
     position: relative; 
     left: -3px;
 }
 
 .addr {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     max-height: 4rem;
     padding: 0 1rem 0 1rem;
 }
 
 .iFlex {
     border: 3px solid black;
-    max-height: 62px;
-    border-radius: calc(2rem + 6px);
+    max-height: 48px;
+    border-radius: 2rem;
     display: flex;
     align-items: center;
     margin: 1.5rem;
