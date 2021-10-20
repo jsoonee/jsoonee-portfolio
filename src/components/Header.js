@@ -19,7 +19,7 @@ const Header = () => {
         <header className={header}>
             <div className="container">
                 <div className="head">
-                    <div className="logo"><a href="/">JS</a></div>
+                    <div className="logo"><a href="./">JS</a></div>
                     <div className="menu">
                         <ul>
                             <li><a href="#about">ABOUT ME</a></li>

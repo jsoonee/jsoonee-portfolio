@@ -46,8 +46,8 @@ const Project = () => {
                                 <img src={shop} alt="shopping cart" className="scn"/>
                             </div>
                             <div className="des">
-                                <h2>가상 쇼핑몰</h2>
-                                <p>장바구니 추가/삭제, 필터 등의 기능을 탑재한 쇼핑몰</p>
+                                <h2>쇼핑몰</h2>
+                                <p>장바구니 담기, 필터 등의 기능을 탑재한 가상 쇼핑몰</p>
                             </div>
                         </div>
                     </div>
