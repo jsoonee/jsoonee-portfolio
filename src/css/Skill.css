@@ -1,54 +1,53 @@
 .skill {
-    background-color: #3a8590;
-    color: #fff;
+  background-color: #3a8590;
+  color: #fff;
 }
 
 .maxw .sUl {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-
 .liItem {
-    font-size: 5rem;
-    margin: 2rem;
-    width: 7rem;
+  font-size: 5rem;
+  margin: 2rem;
+  width: 7rem;
 }
 
 .liItem p {
-    font-size: 1rem;
-    font-weight: 700;
-    text-align: center;
-    color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
 }
 
 .hov {
-    background: #fff;
-    color: #3a8590;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 0.5rem;
+  background: #fff;
+  color: #3a8590;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
 }
 
 .sIcons {
-    transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .hov p {
-    transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .hov:hover .sIcons {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .hov:hover p {
-    color: #3a8590;
+  color: #3a8590;
 }
 
 .sName {
-    font-size: 1rem;
+  font-size: 1rem;
 }

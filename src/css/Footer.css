@@ -1,13 +1,13 @@
 footer {
-    background-color: #dfdcd4;
-    color: #3a8590;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #dfdcd4;
+  color: #3a8590;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer p {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }

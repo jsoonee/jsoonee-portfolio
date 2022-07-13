@@ -1,85 +1,89 @@
 .header {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50px;
-    color: #3a8590;
-    background: #dfdcd4;
-    transition: all 0.2s ease-in-out;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  color: #3a8590;
+  background: #dfdcd4;
+  transition: all 0.2s ease-in-out;
 }
 
 .header2 {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50px;
-    color: white;
-    background: rgba(0, 0, 0, 0.4);
-    transition: all 0.2s ease-in-out;
+  width: 100%;
+  position: fixed;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .container {
-    max-width: 75rem;
-    width: 100%;
+  max-width: 75rem;
+  width: 100%;
+  padding: 0 2rem 0 2rem;
 }
 
 .head {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-    margin-left: 2rem;
-    padding: 0 0.3rem 0 0.3rem;
-    font-size: 1.2rem;
-    font-weight: 700;
-    transition: all 0.2s ease-in-out;
+  padding: 0 0.3rem 0 0.3rem;
+  margin-right: 6rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
 }
 
 .logo:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .header .logo:hover {
-    background-color: #3a8590;
-    color: #dfdcd4;
-}
-
-.header2 .logo:hover {
-    color: #fec5e5
+  background-color: #3a8590;
+  color: #dfdcd4;
 }
 
 .menu {
-    text-align: center;
+  text-align: center;
 }
 
 .menu ul {
-    list-style-type: none;
-    padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 }
 
 .menu li {
-    float: left;
-    padding: 0 2rem 0 0;
-    letter-spacing: 0.1em;
-    font-weight: 300;
-    transition: all 0.2s ease-in-out;
-}
-
-.menu li:hover {
-    color: #000;
-}
-
-.header2 .menu li:hover {
-    color: #fec5e5
+  padding: 0 1rem 0 1rem;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  transition: all 0.2s ease-in-out;
 }
 
 @media screen and (max-width: 560px) {
-    .header, .header2 {
-        display: none;
-    }
+  .container {
+    padding: 0;
+  }
+  
+  .logo {
+    display: none;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  .menu ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .menu li {
+    padding: 0 0.3rem 0 0.3rem;
+    letter-spacing: 0;
+    font-size: 0.9rem;
+  }
 }

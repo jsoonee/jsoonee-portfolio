@@ -1,52 +1,52 @@
 .contact {
-    background: #fff;
-    color: #000;
+  background: #fff;
+  color: #000;
 }
 
 .cIcons {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .iFlex:hover {
-    color: #3a8590;
-    border-color: #3a8590;
+  color: #3a8590;
+  border-color: #3a8590;
 }
 
 .ci {
-    font-size: 3rem;
-    position: relative; 
-    left: -3px;
+  font-size: 3rem;
+  position: relative;
+  left: -3px;
 }
 
 .addr {
-    font-size: 1.2rem;
-    max-height: 4rem;
-    padding: 0 1rem 0 1rem;
+  font-size: 1.2rem;
+  max-height: 4rem;
+  padding: 0 1rem 0 1rem;
 }
 
 .iFlex {
-    border: 3px solid black;
-    max-height: 48px;
-    border-radius: 2rem;
-    display: flex;
-    align-items: center;
-    margin: 1.5rem;
-    transition: all 0.3s ease;
+  border: 3px solid black;
+  max-height: 48px;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  margin: 1.5rem;
+  transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 720px) {
-    .addr {
-        display: none;
-    }
+  .addr {
+    display: none;
+  }
 
-    .ci {
-        left: 0px;
-        font-size: 6rem;
-    }
+  .ci {
+    left: 0px;
+    font-size: 6rem;
+  }
 
-    .iFlex {
-        border: none;
-        max-height: 100%;
-    }
+  .iFlex {
+    border: none;
+    max-height: 100%;
+  }
 }
